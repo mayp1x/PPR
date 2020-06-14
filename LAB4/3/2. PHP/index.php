@@ -14,6 +14,7 @@ $server->register("stringShift"
     , 'Funkcja przesuwająca tekst o 1 w prawo.'
 );
 
+#Funkcja przesuwajaca lancuch o 1 w prawo
 function stringShift($shiftMe)
 {
      $string = $shiftMe;
@@ -29,6 +30,8 @@ function stringShift($shiftMe)
           $result .= $shiftedChar;
      }
      $message = $result;
+	 
+	 #tworzenie socketu:
      if ($socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP)) {
           while (1) {
                socket_sendto($socket, $message, strlen($message), 0, $server_ip, $server_port);
@@ -40,6 +43,8 @@ function stringShift($shiftMe)
      }
     return new soapval('return', 'xsd:string', $result);
 }
+
+#Przekazanie danych:
 $postdata = file_get_contents("php://input");
 $postdata = isset($postdata) ? $postdata : '';
 $server->service($postdata);
