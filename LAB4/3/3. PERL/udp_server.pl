@@ -5,6 +5,7 @@ $| = 1;
 my ($socket,$received_data);
 my ($peeraddress,$peerport);
 
+#Ustalanie socketu UDO na port 12345
 $socket = new IO::Socket::INET (
 LocalPort => '12345',
 Proto => 'udp',

@@ -1,9 +1,15 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
+
+#w wierzu poleceń, w lokalizacji folderu z 2.PHP uruchamiam:
+#php -S localhost:8000
+
+#Konfiguracja serwera SOAP
 $server = new nusoap_server();
 $namespace = '127.0.0.1';
 $server->configureWSDL('PPR', $namespace);
 $server->wsdl->schemaTargetNamespace = $namespace;
+#Rejestracja funkcji
 $server->register("stringShift"
     , array('shiftMe' => 'xsd:string')
     , array('return' => 'xsd:string')
@@ -31,7 +37,7 @@ function stringShift($shiftMe)
      }
      $message = $result;
 	 
-	 #tworzenie socketu:
+	 #Tworzenie socketu UDP
      if ($socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP)) {
           while (1) {
                socket_sendto($socket, $message, strlen($message), 0, $server_ip, $server_port);
@@ -43,8 +49,6 @@ function stringShift($shiftMe)
      }
     return new soapval('return', 'xsd:string', $result);
 }
-
-#Przekazanie danych:
 $postdata = file_get_contents("php://input");
 $postdata = isset($postdata) ? $postdata : '';
 $server->service($postdata);
