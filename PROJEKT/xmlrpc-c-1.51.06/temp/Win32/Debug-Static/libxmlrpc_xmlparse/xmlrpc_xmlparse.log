@@ -1,0 +1,3 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  xmlparse.c
+  xmlrpc_xmlparse.vcxproj -> C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\Windows\project\vs2017\..\..\..\bin\Debug-Static-Win32\libxmlrpc_xmlparse.lib

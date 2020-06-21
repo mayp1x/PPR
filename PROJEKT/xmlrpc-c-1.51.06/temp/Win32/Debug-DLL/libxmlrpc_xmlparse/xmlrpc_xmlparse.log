@@ -1,0 +1,5 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  xmlparse.c
+xmlparse.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library ..\..\..\bin\Debug-DLL-Win32\libxmlrpc_xmlparse.lib and object ..\..\..\bin\Debug-DLL-Win32\libxmlrpc_xmlparse.exp
+  xmlrpc_xmlparse.vcxproj -> C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\Windows\project\vs2017\..\..\..\bin\Debug-DLL-Win32\libxmlrpc_xmlparse.dll

@@ -1,0 +1,16 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  utf8.c
+  time.c
+  string_number.c
+  sleep.c
+  select.c
+  mempool.c
+  memblock.c
+  make_printable.c
+  lock_windows.c
+  lock_platform.c
+  error.c
+  base64.c
+  asprintf.c
+  Generating Code...
+  xmlrpc_util.vcxproj -> C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\Windows\project\vs2017\..\..\..\bin\Debug-Static-Win32\libxmlrpc_util.lib

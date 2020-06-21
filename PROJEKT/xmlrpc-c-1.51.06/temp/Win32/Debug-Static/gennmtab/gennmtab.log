@@ -1,0 +1,5 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  gennmtab.c
+gennmtab.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  gennmtab.vcxproj -> C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\Windows\project\vs2017\..\..\..\bin\Debug-Static-Win32\gennmtab.exe
+  (D) Generating nametab.h ...

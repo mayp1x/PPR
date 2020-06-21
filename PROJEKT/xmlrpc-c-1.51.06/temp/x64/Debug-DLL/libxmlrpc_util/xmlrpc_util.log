@@ -1,0 +1,21 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  utf8.c
+  time.c
+  string_number.c
+  sleep.c
+  select.c
+  mempool.c
+  memblock.c
+  make_printable.c
+  lock_windows.c
+  lock_platform.c
+  error.c
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\libutil\error.c(44,5): warning C4312: 'type cast': conversion from 'unsigned int' to 'void *' of greater size
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\libutil\error.c(53,26): warning C4312: 'type cast': conversion from 'unsigned int' to 'void *' of greater size
+  base64.c
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\libutil\base64.c(36,27): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  asprintf.c
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\libutil\asprintf.c(90,32): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+     Creating library ..\..\..\bin\Debug-DLL-x64\libxmlrpc_util.lib and object ..\..\..\bin\Debug-DLL-x64\libxmlrpc_util.exp
+  xmlrpc_util.vcxproj -> C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\Windows\project\vs2017\..\..\..\bin\Debug-DLL-x64\libxmlrpc_util.dll

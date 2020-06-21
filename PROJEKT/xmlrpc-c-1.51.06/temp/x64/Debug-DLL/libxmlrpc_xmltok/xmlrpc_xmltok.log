@@ -1,0 +1,6 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  xmltok.c
+  xmlrole.c
+  Generating Code...
+     Creating library ..\..\..\bin\Debug-DLL-x64\libxmlrpc_xmltok.lib and object ..\..\..\bin\Debug-DLL-x64\libxmlrpc_xmltok.exp
+  xmlrpc_xmltok.vcxproj -> C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\Windows\project\vs2017\..\..\..\bin\Debug-DLL-x64\libxmlrpc_xmltok.dll

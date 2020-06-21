@@ -1,0 +1,16 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  xmlparse.c
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(498,48): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(517,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(928,64): warning C4267: 'function': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(1341,68): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(1382,73): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(2758,58): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(2925,42): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(3741,64): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(4698,39): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(4730,21): warning C4267: 'function': conversion from 'size_t' to 'const unsigned int', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(4724,1): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\lib\expat\xmlparse\xmlparse.c(4788,52): warning C4267: 'function': conversion from 'size_t' to 'const int', possible loss of data
+     Creating library ..\..\..\bin\Debug-DLL-x64\libxmlrpc_xmlparse.lib and object ..\..\..\bin\Debug-DLL-x64\libxmlrpc_xmlparse.exp
+  xmlrpc_xmlparse.vcxproj -> C:\Users\mayp1x\Documents\PPRepo\PPR\PROJEKT\xmlrpc-c-1.51.06\Windows\project\vs2017\..\..\..\bin\Debug-DLL-x64\libxmlrpc_xmlparse.dll
